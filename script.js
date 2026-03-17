@@ -5,7 +5,7 @@ const Q = document.querySelector('.Q');
 const containerRect = container.getBoundingClientRect();
 const noBtn = no.getBoundingClientRect();
 yes.addEventListener('click', () => {
-    Q.innerHTML = 'I Love You Toooo!😙';
+    Q.innerHTML = 'Hehe, I Love You Too!😙';
 });
 no.addEventListener('mouseover', () => {
 const i = Math.floor(Math.random() * (containerRect.width - noBtn.width)) + 1;
